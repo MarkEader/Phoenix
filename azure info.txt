@@ -1,0 +1,15 @@
+vm login
+user=brock_vmadmin
+pwd=F1r3St@rter#
+
+rdp
+40.113.235.248:3389
+user=brock_vmadmin
+pwd=F1r3St@rter#
+
+sql login
+server=brockenterprise.database.windows.net
+user=brock_dbadmin
+pwd=F1r3St@rter
+
+http://brockenterprise.centralus.cloudapp.azure.com/

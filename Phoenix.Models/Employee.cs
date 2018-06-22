@@ -23,14 +23,13 @@ namespace Phoenix.Models
         [Display(AutoGenerateField = false)]
         public Guid Id { get; set; }
         public int EmployeeNumber { get; set; }
-        public string EmploymentStatus { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public DateTime? LastHireDate { get; set; }
-        public string JobId { get; set; }
+        public string JobLookup { get; set; }
         public string JobDescription { get; set; }
-        public decimal BasePayRate { get; set; }
-        public int EmploymentStatusId { get; set; }
+        public decimal JobBasePayRate { get; set; }
+        public int EmploymentStatusLookup { get; set; }
         public string EmploymentStatusDescription { get; set; }
     }
 }

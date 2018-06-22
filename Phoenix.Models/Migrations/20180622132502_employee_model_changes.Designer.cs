@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Phoenix.Models;
 
 namespace Phoenix.Models.Migrations
 {
     [DbContext(typeof(PhoenixDbContext))]
-    partial class PhoenixDbContextModelSnapshot : ModelSnapshot
+    [Migration("20180622132502_employee_model_changes")]
+    partial class employee_model_changes
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -83,13 +85,13 @@ namespace Phoenix.Models.Migrations
 
                     b.Property<bool>("Archived");
 
-                    b.Property<string>("Description");
+                    b.Property<string>("EmploymentStatusDescription");
+
+                    b.Property<int>("EmploymentStatusLookup");
 
                     b.Property<string>("LastUpdateBy");
 
                     b.Property<DateTime>("LastUpdated");
-
-                    b.Property<int>("Lookup");
 
                     b.HasKey("Id");
 
@@ -106,13 +108,13 @@ namespace Phoenix.Models.Migrations
                     b.Property<decimal>("BasePayRate")
                         .HasColumnType("decimal(9, 2)");
 
-                    b.Property<string>("Description");
+                    b.Property<string>("JobDescription");
+
+                    b.Property<string>("JobId");
 
                     b.Property<string>("LastUpdateBy");
 
                     b.Property<DateTime>("LastUpdated");
-
-                    b.Property<string>("Lookup");
 
                     b.HasKey("Id");
 

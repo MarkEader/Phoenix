@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations.Schema;
 using Phoenix.Models.Base;
 
 namespace Phoenix.Models
@@ -7,6 +8,7 @@ namespace Phoenix.Models
     {
         public long TimeSheetId { get; set; }
         public virtual Employee Employee { get; set; }
+        [Column(TypeName = "decimal(2, 2)")]
         public decimal Hours { get; set; }
         public DateTime WorkDate { get; set; }
         public DateTime ClockInDateTime { get; set; }

@@ -5,7 +5,11 @@ namespace Phoenix.Models
 {
     public class EmploymentStatus : MasterDataModel
     {
-        public int EmploymentStatusId { get; set; }
-        public string EmploymentStatusDescription { get; set; }
+        public int Lookup { get; set; }
+        public string Description { get; set; }
+
+        public int GetLookup() => Lookup;
+
+        public string GetDescription() => Description;
     }
 }

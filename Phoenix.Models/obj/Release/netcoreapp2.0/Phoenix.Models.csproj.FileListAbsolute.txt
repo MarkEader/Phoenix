@@ -1,0 +1,11 @@
+C:\repo\Project Phoenix\Phoenix.Models\bin\Release\netcoreapp2.0\Phoenix.Models.deps.json
+C:\repo\Project Phoenix\Phoenix.Models\bin\Release\netcoreapp2.0\Phoenix.Models.runtimeconfig.json
+C:\repo\Project Phoenix\Phoenix.Models\bin\Release\netcoreapp2.0\Phoenix.Models.runtimeconfig.dev.json
+C:\repo\Project Phoenix\Phoenix.Models\bin\Release\netcoreapp2.0\Phoenix.Models.dll
+C:\repo\Project Phoenix\Phoenix.Models\bin\Release\netcoreapp2.0\Phoenix.Models.pdb
+C:\repo\Project Phoenix\Phoenix.Models\obj\Release\netcoreapp2.0\Phoenix.Models.csprojAssemblyReference.cache
+C:\repo\Project Phoenix\Phoenix.Models\obj\Release\netcoreapp2.0\Phoenix.Models.csproj.CoreCompileInputs.cache
+C:\repo\Project Phoenix\Phoenix.Models\obj\Release\netcoreapp2.0\Phoenix.Models.AssemblyInfoInputs.cache
+C:\repo\Project Phoenix\Phoenix.Models\obj\Release\netcoreapp2.0\Phoenix.Models.AssemblyInfo.cs
+C:\repo\Project Phoenix\Phoenix.Models\obj\Release\netcoreapp2.0\Phoenix.Models.dll
+C:\repo\Project Phoenix\Phoenix.Models\obj\Release\netcoreapp2.0\Phoenix.Models.pdb

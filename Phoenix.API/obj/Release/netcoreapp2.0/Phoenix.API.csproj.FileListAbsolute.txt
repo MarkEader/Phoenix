@@ -1,0 +1,15 @@
+C:\repo\Project Phoenix\Phoenix.API\bin\Release\netcoreapp2.0\Phoenix.API.deps.json
+C:\repo\Project Phoenix\Phoenix.API\bin\Release\netcoreapp2.0\Phoenix.API.runtimeconfig.json
+C:\repo\Project Phoenix\Phoenix.API\bin\Release\netcoreapp2.0\Phoenix.API.runtimeconfig.dev.json
+C:\repo\Project Phoenix\Phoenix.API\bin\Release\netcoreapp2.0\Phoenix.API.dll
+C:\repo\Project Phoenix\Phoenix.API\bin\Release\netcoreapp2.0\Phoenix.API.pdb
+C:\repo\Project Phoenix\Phoenix.API\bin\Release\netcoreapp2.0\Phoenix.Models.dll
+C:\repo\Project Phoenix\Phoenix.API\bin\Release\netcoreapp2.0\Phoenix.Models.pdb
+C:\repo\Project Phoenix\Phoenix.API\obj\Release\netcoreapp2.0\Phoenix.API.csprojAssemblyReference.cache
+C:\repo\Project Phoenix\Phoenix.API\obj\Release\netcoreapp2.0\Phoenix.API.csproj.CoreCompileInputs.cache
+C:\repo\Project Phoenix\Phoenix.API\obj\Release\netcoreapp2.0\Phoenix.API.AssemblyInfoInputs.cache
+C:\repo\Project Phoenix\Phoenix.API\obj\Release\netcoreapp2.0\Phoenix.API.AssemblyInfo.cs
+C:\repo\Project Phoenix\Phoenix.API\obj\Release\netcoreapp2.0\Phoenix.API.csproj.CopyComplete
+C:\repo\Project Phoenix\Phoenix.API\obj\Release\netcoreapp2.0\Phoenix.API.dll
+C:\repo\Project Phoenix\Phoenix.API\obj\Release\netcoreapp2.0\Phoenix.API.pdb
+C:\repo\Project Phoenix\Phoenix.API\bin\Release\netcoreapp2.0\Phoenix.API.xml

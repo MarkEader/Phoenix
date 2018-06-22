@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Phoenix.API", "Phoenix.API\Phoenix.API.csproj", "{C72644A1-321C-4EA8-B867-4ADE45780021}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Phoenix.Models", "Phoenix.Models\Phoenix.Models.csproj", "{4C27B0C7-C619-465B-A3A9-2233E51D7215}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C72644A1-321C-4EA8-B867-4ADE45780021}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C72644A1-321C-4EA8-B867-4ADE45780021}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C72644A1-321C-4EA8-B867-4ADE45780021}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C72644A1-321C-4EA8-B867-4ADE45780021}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C27B0C7-C619-465B-A3A9-2233E51D7215}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C27B0C7-C619-465B-A3A9-2233E51D7215}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C27B0C7-C619-465B-A3A9-2233E51D7215}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C27B0C7-C619-465B-A3A9-2233E51D7215}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6000FB58-0FE6-4697-9812-29A1E323D7C4}
+	EndGlobalSection
+EndGlobal

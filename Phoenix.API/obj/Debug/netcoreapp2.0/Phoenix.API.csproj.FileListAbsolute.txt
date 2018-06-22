@@ -336,3 +336,18 @@ C:\repo\Phoenix\API\Phoenix.API\bin\Debug\netcoreapp2.0\refs\Microsoft.EntityFra
 C:\repo\Phoenix\API\Phoenix.API\bin\Debug\netcoreapp2.0\refs\AutoMapper.dll
 C:\repo\Phoenix\API\Phoenix.API\bin\Debug\netcoreapp2.0\refs\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\repo\Phoenix\API\Phoenix.API\bin\Debug\netcoreapp2.0\Phoenix.API.xml
+C:\repo\Project Phoenix\Phoenix.API\bin\Debug\netcoreapp2.0\Phoenix.API.xml
+C:\repo\Project Phoenix\Phoenix.API\obj\Debug\netcoreapp2.0\Phoenix.API.csprojAssemblyReference.cache
+C:\repo\Project Phoenix\Phoenix.API\obj\Debug\netcoreapp2.0\Phoenix.API.csproj.CoreCompileInputs.cache
+C:\repo\Project Phoenix\Phoenix.API\obj\Debug\netcoreapp2.0\Phoenix.API.AssemblyInfoInputs.cache
+C:\repo\Project Phoenix\Phoenix.API\obj\Debug\netcoreapp2.0\Phoenix.API.AssemblyInfo.cs
+C:\repo\Project Phoenix\Phoenix.API\obj\Debug\netcoreapp2.0\Phoenix.API.dll
+C:\repo\Project Phoenix\Phoenix.API\obj\Debug\netcoreapp2.0\Phoenix.API.pdb
+C:\repo\Project Phoenix\Phoenix.API\bin\Debug\netcoreapp2.0\Phoenix.API.deps.json
+C:\repo\Project Phoenix\Phoenix.API\bin\Debug\netcoreapp2.0\Phoenix.API.runtimeconfig.json
+C:\repo\Project Phoenix\Phoenix.API\bin\Debug\netcoreapp2.0\Phoenix.API.runtimeconfig.dev.json
+C:\repo\Project Phoenix\Phoenix.API\bin\Debug\netcoreapp2.0\Phoenix.API.dll
+C:\repo\Project Phoenix\Phoenix.API\bin\Debug\netcoreapp2.0\Phoenix.API.pdb
+C:\repo\Project Phoenix\Phoenix.API\bin\Debug\netcoreapp2.0\Phoenix.Models.dll
+C:\repo\Project Phoenix\Phoenix.API\bin\Debug\netcoreapp2.0\Phoenix.Models.pdb
+C:\repo\Project Phoenix\Phoenix.API\obj\Debug\netcoreapp2.0\Phoenix.API.csproj.CopyComplete

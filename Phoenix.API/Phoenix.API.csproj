@@ -24,7 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Models\Phoenix.Models\Phoenix.Models.csproj" />
+    <ProjectReference Include="..\Phoenix.Models\Phoenix.Models.csproj" />
   </ItemGroup>
 
 </Project>

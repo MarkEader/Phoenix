@@ -1,0 +1,33 @@
+C:\Users\mark.eader\source\repos\Phoenix.Models\Phoenix.Models\bin\Debug\netcoreapp2.0\Phoenix.Models.deps.json
+C:\Users\mark.eader\source\repos\Phoenix.Models\Phoenix.Models\bin\Debug\netcoreapp2.0\Phoenix.Models.dll
+C:\Users\mark.eader\source\repos\Phoenix.Models\Phoenix.Models\obj\Debug\netcoreapp2.0\Phoenix.Models.csprojAssemblyReference.cache
+C:\Users\mark.eader\source\repos\Phoenix.Models\Phoenix.Models\obj\Debug\netcoreapp2.0\Phoenix.Models.csproj.CoreCompileInputs.cache
+C:\Users\mark.eader\source\repos\Phoenix.Models\Phoenix.Models\obj\Debug\netcoreapp2.0\Phoenix.Models.AssemblyInfoInputs.cache
+C:\Users\mark.eader\source\repos\Phoenix.Models\Phoenix.Models\obj\Debug\netcoreapp2.0\Phoenix.Models.AssemblyInfo.cs
+C:\Users\mark.eader\source\repos\Phoenix.Models\Phoenix.Models\bin\Debug\netcoreapp2.0\Phoenix.Models.pdb
+C:\Users\mark.eader\source\repos\Phoenix.Models\Phoenix.Models\obj\Debug\netcoreapp2.0\Phoenix.Models.dll
+C:\Users\mark.eader\source\repos\Phoenix.Models\Phoenix.Models\obj\Debug\netcoreapp2.0\Phoenix.Models.pdb
+C:\Users\mark.eader\source\repos\Phoenix.Models\Phoenix.Models\bin\Debug\netcoreapp2.0\Phoenix.Models.runtimeconfig.json
+C:\Users\mark.eader\source\repos\Phoenix.Models\Phoenix.Models\bin\Debug\netcoreapp2.0\Phoenix.Models.runtimeconfig.dev.json
+C:\repo\Phoenix\Models\Phoenix.Models\bin\Debug\netcoreapp2.0\Phoenix.Models.deps.json
+C:\repo\Phoenix\Models\Phoenix.Models\bin\Debug\netcoreapp2.0\Phoenix.Models.runtimeconfig.json
+C:\repo\Phoenix\Models\Phoenix.Models\bin\Debug\netcoreapp2.0\Phoenix.Models.runtimeconfig.dev.json
+C:\repo\Phoenix\Models\Phoenix.Models\bin\Debug\netcoreapp2.0\Phoenix.Models.dll
+C:\repo\Phoenix\Models\Phoenix.Models\bin\Debug\netcoreapp2.0\Phoenix.Models.pdb
+C:\repo\Phoenix\Models\Phoenix.Models\obj\Debug\netcoreapp2.0\Phoenix.Models.csprojAssemblyReference.cache
+C:\repo\Phoenix\Models\Phoenix.Models\obj\Debug\netcoreapp2.0\Phoenix.Models.csproj.CoreCompileInputs.cache
+C:\repo\Phoenix\Models\Phoenix.Models\obj\Debug\netcoreapp2.0\Phoenix.Models.AssemblyInfoInputs.cache
+C:\repo\Phoenix\Models\Phoenix.Models\obj\Debug\netcoreapp2.0\Phoenix.Models.AssemblyInfo.cs
+C:\repo\Phoenix\Models\Phoenix.Models\obj\Debug\netcoreapp2.0\Phoenix.Models.dll
+C:\repo\Phoenix\Models\Phoenix.Models\obj\Debug\netcoreapp2.0\Phoenix.Models.pdb
+C:\repo\Project Phoenix\Phoenix.Models\bin\Debug\netcoreapp2.0\Phoenix.Models.deps.json
+C:\repo\Project Phoenix\Phoenix.Models\bin\Debug\netcoreapp2.0\Phoenix.Models.runtimeconfig.json
+C:\repo\Project Phoenix\Phoenix.Models\bin\Debug\netcoreapp2.0\Phoenix.Models.runtimeconfig.dev.json
+C:\repo\Project Phoenix\Phoenix.Models\bin\Debug\netcoreapp2.0\Phoenix.Models.dll
+C:\repo\Project Phoenix\Phoenix.Models\bin\Debug\netcoreapp2.0\Phoenix.Models.pdb
+C:\repo\Project Phoenix\Phoenix.Models\obj\Debug\netcoreapp2.0\Phoenix.Models.csprojAssemblyReference.cache
+C:\repo\Project Phoenix\Phoenix.Models\obj\Debug\netcoreapp2.0\Phoenix.Models.csproj.CoreCompileInputs.cache
+C:\repo\Project Phoenix\Phoenix.Models\obj\Debug\netcoreapp2.0\Phoenix.Models.AssemblyInfoInputs.cache
+C:\repo\Project Phoenix\Phoenix.Models\obj\Debug\netcoreapp2.0\Phoenix.Models.AssemblyInfo.cs
+C:\repo\Project Phoenix\Phoenix.Models\obj\Debug\netcoreapp2.0\Phoenix.Models.dll
+C:\repo\Project Phoenix\Phoenix.Models\obj\Debug\netcoreapp2.0\Phoenix.Models.pdb

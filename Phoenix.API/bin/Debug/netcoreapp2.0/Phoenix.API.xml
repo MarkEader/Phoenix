@@ -4,5 +4,25 @@
         <name>Phoenix.API</name>
     </assembly>
     <members>
+        <member name="M:Phoenix.API.Controllers.EmployeeController.Get">
+            <summary>
+            Get all employees
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Phoenix.API.Controllers.EmployeeController.GetById(System.Int32)">
+            <summary>
+            Get all a single employee by employee number
+            </summary>
+            <param name="id">employee number</param>
+            <returns></returns>
+        </member>
+        <member name="M:Phoenix.API.Controllers.EmployeeController.Post(Phoenix.Models.Employee)">
+            <summary>
+            Save an employee to the data store
+            </summary>
+            <param name="employee"></param>
+            <returns></returns>
+        </member>
     </members>
 </doc>

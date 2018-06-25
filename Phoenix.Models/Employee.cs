@@ -14,6 +14,8 @@ namespace Phoenix.Models
         public string LastName { get; set; }
         [Required]
         public DateTime? LastHireDate { get; set; }
+        public Guid? JobId { get; set; }
+        public Guid? EmploymentStatusId { get; set; }
         public virtual Job Job { get; set; }
         public virtual EmploymentStatus EmploymentStatus { get; set; }
     }

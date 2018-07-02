@@ -24,5 +24,20 @@
             <param name="employee"></param>
             <returns></returns>
         </member>
+        <member name="M:Phoenix.API.Controllers.EmployeeController.Put(Phoenix.Models.Employee,System.Guid)">
+            <summary>
+            Update exsisting employee
+            </summary>
+            <param name="employee">Updated Employee model</param>
+            <param name="id">employee GUID</param>
+            <returns></returns>
+        </member>
+        <member name="M:Phoenix.API.Controllers.EmployeeController.Delete(System.Guid)">
+            <summary>
+            Archive employee
+            </summary>
+            <param name="id">employee GUID</param>
+            <returns></returns>
+        </member>
     </members>
 </doc>

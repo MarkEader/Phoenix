@@ -3566,11 +3566,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\repo\\Project Phoenix\\Phoenix.Models\\Phoenix.Models.csproj",
+      "projectUniqueName": "C:\\repo\\Phoenix\\Phoenix.Models\\Phoenix.Models.csproj",
       "projectName": "Phoenix.Models",
-      "projectPath": "C:\\repo\\Project Phoenix\\Phoenix.Models\\Phoenix.Models.csproj",
+      "projectPath": "C:\\repo\\Phoenix\\Phoenix.Models\\Phoenix.Models.csproj",
       "packagesPath": "C:\\Users\\mark.eader\\.nuget\\packages\\",
-      "outputPath": "C:\\repo\\Project Phoenix\\Phoenix.Models\\obj\\",
+      "outputPath": "C:\\repo\\Phoenix\\Phoenix.Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3584,7 +3584,9 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://brockenterprise.pkgs.visualstudio.com/_packaging/BrockEnterprise/nuget/v3/index.json": {},
+        "https://nuget.telerik.com/nuget": {}
       },
       "frameworks": {
         "netcoreapp2.0": {

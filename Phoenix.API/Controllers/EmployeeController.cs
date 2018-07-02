@@ -53,8 +53,7 @@ namespace Phoenix.API.Controllers
             {
                 responseMessage.Items = new List<EmployeeDto>
                 {
-                    _mapper.Map<Employee, EmployeeDto>(_context.Employees.ToList()
-                        .FirstOrDefault(e => e.EmployeeNumber == id && e.Archived == false))
+                    _mapper.Map<Employee, EmployeeDto>(_context.Employees.FirstOrDefault(e => e.EmployeeNumber == id && e.Archived == false))
                 };
                 responseMessage.Success = true;
             }
@@ -80,7 +79,69 @@ namespace Phoenix.API.Controllers
             {
                 _context.Employees.Add(employee);
                 _context.SaveChanges();
-                responseMessage.Items = new List<Employee> { _context.Employees.ToList().FirstOrDefault(e => e.EmployeeNumber == employee.EmployeeNumber) };
+                responseMessage.Items = new List<Employee> { _context.Employees.FirstOrDefault(e => e.EmployeeNumber == employee.EmployeeNumber) };
+                responseMessage.Success = true;
+            }
+            catch (Exception ex)
+            {
+                responseMessage.Success = false;
+                responseMessage.ExceptionMessage = ex.Message + " " + (ex.InnerException == null ? "" : ex.InnerException.Message);
+            }
+
+            return responseMessage;
+        }
+
+        /// <summary>
+        /// Update exsisting employee
+        /// </summary>
+        /// <param name="employee">Updated Employee model</param>
+        /// <param name="id">employee GUID</param>
+        /// <returns></returns>
+        [HttpPut]
+        public ResponseMessage<Employee> Put([FromBody] Employee employee, Guid id)
+        {
+            var responseMessage = new ResponseMessage<Employee>();
+            try
+            {
+                var _employee = _context.Employees.FirstOrDefault(e => e.Id == id);
+                _employee.EmployeeNumber = employee.EmployeeNumber;
+                _employee.EmploymentStatusId = employee.EmploymentStatusId;
+                _employee.FirstName = employee.FirstName;
+                _employee.LastName = employee.LastName;
+                _employee.LastHireDate = employee.LastHireDate;
+                _employee.JobId = employee.JobId;
+                _employee.LastUpdated = DateTime.Now;
+                _context.Employees.Add(_employee);
+                _context.SaveChanges();
+                responseMessage.Items = new List<Employee> { _context.Employees.ToList().FirstOrDefault(e => e.Id == id) };
+                responseMessage.Success = true;
+            }
+            catch (Exception ex)
+            {
+                responseMessage.Success = false;
+                responseMessage.ExceptionMessage = ex.Message + " " + (ex.InnerException == null ? "" : ex.InnerException.Message);
+            }
+
+            return responseMessage;
+        }
+
+        /// <summary>
+        /// Archive employee
+        /// </summary>
+        /// <param name="id">employee GUID</param>
+        /// <returns></returns>
+        [HttpDelete]
+        public ResponseMessage<Employee> Delete(Guid id)
+        {
+            var responseMessage = new ResponseMessage<Employee>();
+            try
+            {
+                var _employee = _context.Employees.FirstOrDefault(e => e.Id == id);
+                if(_employee == null) throw new Exception("Employee Not Found");
+                _employee.Archived = true;
+                _context.Employees.Add(_employee);
+                _context.SaveChanges();
+                responseMessage.Items = new List<Employee>{ _context.Employees.FirstOrDefault(e => e.Id == id) };
                 responseMessage.Success = true;
             }
             catch (Exception ex)

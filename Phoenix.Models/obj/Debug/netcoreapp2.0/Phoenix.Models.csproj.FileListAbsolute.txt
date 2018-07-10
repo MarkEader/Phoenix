@@ -42,3 +42,8 @@ C:\repo\Phoenix\Phoenix.Models\obj\Debug\netcoreapp2.0\Phoenix.Models.AssemblyIn
 C:\repo\Phoenix\Phoenix.Models\obj\Debug\netcoreapp2.0\Phoenix.Models.AssemblyInfo.cs
 C:\repo\Phoenix\Phoenix.Models\obj\Debug\netcoreapp2.0\Phoenix.Models.dll
 C:\repo\Phoenix\Phoenix.Models\obj\Debug\netcoreapp2.0\Phoenix.Models.pdb
+C:\repo\Phoenix\Phoenix.Models\bin\Debug\netcoreapp2.0\Microsoft.Extensions.Identity.Stores.dll
+C:\repo\Phoenix\Phoenix.Models\bin\Debug\netcoreapp2.0\Microsoft.Extensions.Identity.Stores.xml
+C:\repo\Phoenix\Phoenix.Models\obj\Debug\netcoreapp2.0\Phoenix.Models.csproj.CopyComplete
+C:\repo\Phoenix\Phoenix.Models\bin\Debug\netcoreapp2.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\repo\Phoenix\Phoenix.Models\bin\Debug\netcoreapp2.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.xml

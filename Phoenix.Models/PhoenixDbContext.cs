@@ -1,10 +1,11 @@
 ﻿using System;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace Phoenix.Models
 {
-    public class PhoenixDbContext : DbContext
+    public class PhoenixDbContext : IdentityDbContext<AppUser, AppRole, Guid>
     {
         public PhoenixDbContext(DbContextOptions<PhoenixDbContext> options) : base(options)
         {
@@ -17,6 +18,8 @@ namespace Phoenix.Models
         }
         protected override void OnModelCreating(ModelBuilder builder)
         {
+            base.OnModelCreating(builder);
+
             foreach (var entity in builder.Model.GetEntityTypes())
             {
                 entity.Relational().TableName = entity.DisplayName();

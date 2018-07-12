@@ -1,8 +1,14 @@
-﻿using System.IdentityModel.Tokens.Jwt;
+﻿using System;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
 using System.Security.Principal;
+using System.Text;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
+using Microsoft.IdentityModel.Tokens;
 using Phoenix.Models;
 
 namespace Phoenix.API.Controllers
@@ -13,16 +19,22 @@ namespace Phoenix.API.Controllers
         private readonly PhoenixDbContext _context;
         private readonly SignInManager<AppUser> _signInManager;
         private readonly UserManager<AppUser> _userManager;
+        private readonly IConfiguration _config;
 
         public AuthenticationController(PhoenixDbContext context, SignInManager<AppUser> signInManager,
-            UserManager<AppUser> userManager)
+            UserManager<AppUser> userManager, IConfiguration config)
         {
             _context = context;
             _signInManager = signInManager;
             _userManager = userManager;
+            _config = config;
         }
 
-        [HttpGet("windowsAuth")]
+        /// <summary>
+        /// User windows authentication
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet("windows")]
         public async Task<IActionResult> WindowsAuthentication()
         {
             var response = Unauthorized();
@@ -55,9 +67,50 @@ namespace Phoenix.API.Controllers
             return response;
         }
 
+        /// <summary>
+        /// Register new user
+        /// </summary>
+        /// <param name="login"></param>
+        /// <returns></returns>
+        [HttpPost("register")]
+        [AllowAnonymous]
+        public async Task<IActionResult> Register([FromBody]Login login)
+        {
+            if (ModelState.IsValid)
+            {
+                var user = new AppUser { UserName = login.UserName };
+                var result = await _signInManager.UserManager.CreateAsync(user);
+                if (result.Succeeded)
+                {
+                    await _signInManager.SignInAsync(user, isPersistent: false);
+                    return Ok(result);
+                }
+
+                return BadRequest(result);
+            }
+
+            return BadRequest(ModelState);
+        }
+
         private JwtSecurityToken BuildToken(AppUser appuser)
         {
-            
+            var claims = new[]
+            {
+                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+                new Claim(JwtRegisteredClaimNames.GivenName, appuser.NormalizedUserName),
+
+            };
+
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
+            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+
+            var token = new JwtSecurityToken(_config["Jwt:Issurer"],
+                _config["Jwt:Issurer"],
+                claims: claims,
+                expires: DateTime.UtcNow.AddMinutes(30),
+                signingCredentials: creds);
+
+            return token;
         }
     }
 }

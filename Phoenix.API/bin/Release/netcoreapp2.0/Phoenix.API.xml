@@ -4,5 +4,53 @@
         <name>Phoenix.API</name>
     </assembly>
     <members>
+        <member name="M:Phoenix.API.Controllers.AuthenticationController.WindowsAuthentication">
+            <summary>
+            User windows authentication
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Phoenix.API.Controllers.AuthenticationController.Register(Phoenix.Models.Login)">
+            <summary>
+            Register new user
+            </summary>
+            <param name="login"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Phoenix.API.Controllers.EmployeeController.Get">
+            <summary>
+            Get all employees
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Phoenix.API.Controllers.EmployeeController.GetById(System.Int32)">
+            <summary>
+            Get all a single employee by employee number
+            </summary>
+            <param name="id">employee number</param>
+            <returns></returns>
+        </member>
+        <member name="M:Phoenix.API.Controllers.EmployeeController.Post(Phoenix.Models.Employee)">
+            <summary>
+            Save an employee to the data store
+            </summary>
+            <param name="employee"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Phoenix.API.Controllers.EmployeeController.Put(Phoenix.Models.Employee,System.Guid)">
+            <summary>
+            Update exsisting employee
+            </summary>
+            <param name="employee">Updated Employee model</param>
+            <param name="id">employee GUID</param>
+            <returns></returns>
+        </member>
+        <member name="M:Phoenix.API.Controllers.EmployeeController.Delete(System.Guid)">
+            <summary>
+            Archive employee
+            </summary>
+            <param name="id">employee GUID</param>
+            <returns></returns>
+        </member>
     </members>
 </doc>

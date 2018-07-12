@@ -1,5 +1,5 @@
-C:\repo\Project Phoenix\Phoenix.API
+C:\repo\Phoenix\Phoenix.API
 --output-path=obj\Release\netcoreapp2.0\
 --application-name=Phoenix.API
---content-root=C:\repo\Project Phoenix\Phoenix.API
+--content-root=C:\repo\Phoenix\Phoenix.API
 --file=

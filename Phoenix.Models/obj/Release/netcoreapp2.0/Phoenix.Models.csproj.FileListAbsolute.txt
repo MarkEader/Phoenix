@@ -9,3 +9,19 @@ C:\repo\Project Phoenix\Phoenix.Models\obj\Release\netcoreapp2.0\Phoenix.Models.
 C:\repo\Project Phoenix\Phoenix.Models\obj\Release\netcoreapp2.0\Phoenix.Models.AssemblyInfo.cs
 C:\repo\Project Phoenix\Phoenix.Models\obj\Release\netcoreapp2.0\Phoenix.Models.dll
 C:\repo\Project Phoenix\Phoenix.Models\obj\Release\netcoreapp2.0\Phoenix.Models.pdb
+C:\repo\Phoenix\Phoenix.Models\bin\Release\netcoreapp2.0\Phoenix.Models.deps.json
+C:\repo\Phoenix\Phoenix.Models\bin\Release\netcoreapp2.0\Phoenix.Models.runtimeconfig.json
+C:\repo\Phoenix\Phoenix.Models\bin\Release\netcoreapp2.0\Phoenix.Models.runtimeconfig.dev.json
+C:\repo\Phoenix\Phoenix.Models\bin\Release\netcoreapp2.0\Phoenix.Models.dll
+C:\repo\Phoenix\Phoenix.Models\bin\Release\netcoreapp2.0\Phoenix.Models.pdb
+C:\repo\Phoenix\Phoenix.Models\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\repo\Phoenix\Phoenix.Models\bin\Release\netcoreapp2.0\Microsoft.Extensions.Identity.Stores.dll
+C:\repo\Phoenix\Phoenix.Models\bin\Release\netcoreapp2.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.xml
+C:\repo\Phoenix\Phoenix.Models\bin\Release\netcoreapp2.0\Microsoft.Extensions.Identity.Stores.xml
+C:\repo\Phoenix\Phoenix.Models\obj\Release\netcoreapp2.0\Phoenix.Models.csprojAssemblyReference.cache
+C:\repo\Phoenix\Phoenix.Models\obj\Release\netcoreapp2.0\Phoenix.Models.csproj.CoreCompileInputs.cache
+C:\repo\Phoenix\Phoenix.Models\obj\Release\netcoreapp2.0\Phoenix.Models.AssemblyInfoInputs.cache
+C:\repo\Phoenix\Phoenix.Models\obj\Release\netcoreapp2.0\Phoenix.Models.AssemblyInfo.cs
+C:\repo\Phoenix\Phoenix.Models\obj\Release\netcoreapp2.0\Phoenix.Models.csproj.CopyComplete
+C:\repo\Phoenix\Phoenix.Models\obj\Release\netcoreapp2.0\Phoenix.Models.dll
+C:\repo\Phoenix\Phoenix.Models\obj\Release\netcoreapp2.0\Phoenix.Models.pdb

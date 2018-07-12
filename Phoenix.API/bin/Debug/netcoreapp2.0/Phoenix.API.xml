@@ -4,6 +4,19 @@
         <name>Phoenix.API</name>
     </assembly>
     <members>
+        <member name="M:Phoenix.API.Controllers.AuthenticationController.WindowsAuthentication">
+            <summary>
+            User windows authentication
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Phoenix.API.Controllers.AuthenticationController.Register(Phoenix.Models.Login)">
+            <summary>
+            Register new user
+            </summary>
+            <param name="login"></param>
+            <returns></returns>
+        </member>
         <member name="M:Phoenix.API.Controllers.EmployeeController.Get">
             <summary>
             Get all employees

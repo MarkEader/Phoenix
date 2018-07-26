@@ -63,6 +63,13 @@ namespace Phoenix.API
             });
 
             services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<PhoenixDbContext>();
+            
+            services.Configure<IdentityOptions>(options =>
+                {
+                    //options.User.RequireUniqueEmail = true;
+                    options.User.AllowedUserNameCharacters = null;
+                        //@"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789\.";
+                });
 
             services.AddDbContext<PhoenixDbContext>(options =>
                 options.UseSqlServer(
@@ -72,7 +79,7 @@ namespace Phoenix.API
             services.AddMvc();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("version1", new Info {Title = "Time Capture API", Version = "1.0"});
+                c.SwaggerDoc("version1", new Info { Title = "Time Capture API", Version = "1.0" });
                 var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
                 var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
                 c.IncludeXmlComments(xmlPath);
